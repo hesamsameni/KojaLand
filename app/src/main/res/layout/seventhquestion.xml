@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="32dp">
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="دوست دارید آخر هفته را چطوری بگذرانید؟"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="1"
+            android:background="@drawable/shape"
+            android:onClick="onClickOutdoor"
+            android:src="@drawable/outdoor" />
+
+        <TextView
+            android:id="@+id/outdoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_row="2"
+            android:text="بیرون شهر"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="1"
+            android:background="@drawable/shape"
+            android:onClick="onClickCafe"
+            android:src="@drawable/cafe" />
+
+        <TextView
+            android:id="@+id/cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_row="2"
+            android:text="کافه"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_row="2"
+            android:background="@drawable/shape"
+            android:onClick="onClickGathering"
+            android:src="@drawable/gathering" />
+
+        <TextView
+            android:id="@+id/gatherin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_row="4"
+            android:text="دورهمی"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_row="2"
+            android:background="@drawable/shape"
+            android:onClick="onClickCulture"
+            android:src="@drawable/culture" />
+
+        <TextView
+            android:id="@+id/culture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_row="4"
+            android:text="رویداد فرهنگی"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+
+</LinearLayout>

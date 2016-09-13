@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.vaya_group.charactertest">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Koja Land"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".firstquestion"></activity>
+        <activity android:name=".secondquestion"></activity>
+        <activity android:name=".thirdquestion"></activity>
+        <activity android:name=".fourthquestion"></activity>
+        <activity android:name=".fifthquestion"></activity>
+        <activity android:name=".sixthquestion"></activity>
+        <activity android:name=".seventhquestion"></activity>
+        <activity android:name=".eighthquestion"></activity>
+        <activity android:name=".ninethquestion"></activity>
+        <activity android:name=".result"></activity>
+        <activity android:name=".finalpage"></activity>
+
+
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>

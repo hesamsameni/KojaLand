@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24a799"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/getDescription"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#24a799"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text=" "
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cityImagee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFF">
+
+        <TextView
+            android:id="@+id/tagLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#24a799"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="32dp"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
